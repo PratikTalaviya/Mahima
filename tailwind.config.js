@@ -13,6 +13,11 @@ export default {
         reddit: ["Reddit Mono", "monospace"],
         urbanist: ["Urbanist", "sans-serif"],
       },
+      screens: {
+        "2xl": "1440px",
+        "3xl": "2000px",
+        "4xl": "2560px",
+      },
     },
   },
   plugins: [],

@@ -32,7 +32,7 @@ function Home() {
         animate={{ backgroundSize: firstInView || secondInView ? "100%" : "100%" }}
         transition={{ duration: 3.3 }}
       >
-        <div ref={firstRef} className="h-[100vh] flex justify-center items-center flex-col">  
+        <div ref={firstRef} className="h-[100vh] flex justify-center items-center flex-col">
           <div className="flex flex-col items-center">
             <motion.div className="flex justify-center text-[17vw] text-[#fff] font-urbanist font-light leading-none">
               {title.map((letter, index) => (
