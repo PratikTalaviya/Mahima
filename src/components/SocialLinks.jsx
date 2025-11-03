@@ -62,20 +62,20 @@ function SocialLinks() {
         >
           {isSmallScreen ? (
             <div
-              className={`h-[1.8rem] w-[1.8rem] rounded-full flex justify-center items-center ${
-                index === 2 ? "border-[0.4rem]" : "border-[0.4rem]"
+              className={`h-[1.5rem] w-[1.5rem] rounded-full flex justify-center items-center ${
+                index === 2 ? "border-[0.3rem]" : "border-[0.3rem]"
               } border-white hover:border-gray-300 text-white hover:text-gray-300 duration-200`}
             >
               <FontAwesomeIcon
                 icon={link.icon}
                 className={`${
                   index === 1
-                    ? "text-[2.25rem]"
+                    ? "text-[1.9rem]"
                     : index === 2
-                    ? "text-[2.132rem] mb-[0.04rem]"
+                    ? "text-[1.7rem] mb-[0.00rem]"
                     : index === 3
-                    ? "text-[2.2rem] ml-[0.04rem]"
-                    : "text-[2.2rem]"
+                    ? "text-[1.8rem] ml-[0.023rem]"
+                    : "text-[1.8rem]"
                 }`}
               />
             </div>

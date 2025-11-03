@@ -55,7 +55,7 @@ function QR() {
       <div className="h-[30dvh] bg-[#201e1f]">
         <InfiniteImageStrips />
       </div>
-      <div className="bg-[#201e1f] flex flex-col justify-center items-center gap-7 py-10">
+      <div className="bg-[#201e1f] flex flex-col justify-center items-center gap-7 pt-12">
         <SocialLinks /> 
         <div className="flex justify-center flex-col items-center">
           <h1 className="flex justify-center items-center gap-2 text-sm text-[#fff] font-urbanist font-light leading-none">
