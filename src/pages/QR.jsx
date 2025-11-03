@@ -8,10 +8,10 @@ function QR() {
   const letters = text.split("");
 
   return (
-    <motion.div className="h-dvh bg-[#201e1f] flex flex-col">
-      <div className="h-[40dvh] bg-[#201e1f] w-full flex justify-around items-center flex-col">
+    <motion.div className="h-[100dvh] bg-[#201e1f] flex flex-col">
+      <div className="h-[30dvh] bg-[#201e1f] w-full flex justify-around items-center flex-col">
         <div className="flex flex-col items-center">
-          <motion.div className="flex justify-center text-[20vw] text-[#fff] font-urbanist font-light leading-none">
+          <motion.div className="flex justify-center text-[4rem] text-[#fff] font-urbanist font-light leading-none">
             {title.map((letter, index) => (
               <motion.span
                 key={index}
@@ -30,8 +30,8 @@ function QR() {
               </motion.span>
             ))}
           </motion.div>
-          <div className="flex justify-end w-full mt-2">
-            <motion.div className="font-urbanist text-[6.7vw] leading-[0.01em] text-[#EAE8E2] font-light pr-0.5 opacity-70">
+          <div className="flex justify-end w-full mt-1">
+            <motion.div className="font-urbanist text-[1.3rem] leading-[0.001em] text-[#EAE8E2] font-light pr-0.5 opacity-70">
               {letters.map((letter, index) => (
                 <motion.span
                   key={index}
@@ -55,7 +55,7 @@ function QR() {
       <div className="h-[30dvh] bg-[#201e1f]">
         <InfiniteImageStrips />
       </div>
-      <div className="h-[20dvh] bg-[#201e1f] flex flex-col justify-center items-center pt-[8dvh]">
+      <div className="h-[40dvh] bg-[#201e1f] flex flex-col justify-center items-center">
         <SocialLinks /> 
         <div className="flex justify-center flex-col items-center my-5 pt-[2dvh]">
           <h1 className="flex justify-center items-center gap-2 text-lg text-[#fff] font-urbanist font-light leading-none">
