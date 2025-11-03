@@ -37,30 +37,30 @@ const InfiniteImageStrips = () => {
           {/* First set */}
           {topRowImages.map((src, index) => (
             <div key={`top-1-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover" />
+              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover filter grayscale" />
             </div>
           ))}
           {/* Second set for seamless loop */}
           {topRowImages.map((src, index) => (
             <div key={`top-2-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover" />
+              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover filter grayscale" />
             </div>
           ))}
           {/* Third set for seamless loop */}
           {topRowImages.map((src, index) => (
             <div key={`top-3-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover" />
+              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover filter grayscale" />
             </div>
           ))}
           {topRowImages.map((src, index) => (
             <div key={`top-4-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover" />
+              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover filter grayscale" />
             </div>
           ))}
 
           {topRowImages.map((src, index) => (
             <div key={`top-5-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover" />
+              <img src={src} alt={`Building ${index}`} className="w-full h-full object-cover filter grayscale" />
             </div>
           ))}
         </motion.div>
@@ -83,30 +83,30 @@ const InfiniteImageStrips = () => {
           {/* First set */}
           {bottomRowImages.map((src, index) => (
             <div key={`bottom-1-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain" />
+              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain filter grayscale" />
             </div>
           ))}
           {/* Second set for seamless loop */}
           {bottomRowImages.map((src, index) => (
             <div key={`bottom-2-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain" />
+              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain filter grayscale" />
             </div>
           ))}
           {/* Third set for seamless loop */}
           {bottomRowImages.map((src, index) => (
             <div key={`bottom-3-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain" />
+              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain filter grayscale" />
             </div>
           ))}
 
           {bottomRowImages.map((src, index) => (
             <div key={`bottom-4-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain" />
+              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain filter grayscale" />
             </div>
           ))}
           {bottomRowImages.map((src, index) => (
             <div key={`bottom-5-${index}`} className="flex-shrink-0 h-full">
-              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain" />
+              <img src={src} alt={`Architecture ${index}`} className="w-full h-full object-contain filter grayscale" />
             </div>
           ))}
         </motion.div>
