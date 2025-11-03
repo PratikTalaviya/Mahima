@@ -55,23 +55,23 @@ function QR() {
       <div className="h-[30dvh] bg-[#201e1f]">
         <InfiniteImageStrips />
       </div>
-      <div className="bg-[#201e1f] flex flex-col justify-center items-center gap-7 pt-12">
+      <div className="bg-[#201e1f] flex flex-col justify-center items-center gap-5 pt-7">
         <SocialLinks /> 
         <div className="flex justify-center flex-col items-center">
-          <h1 className="flex justify-center items-center gap-2 text-sm text-[#fff] font-urbanist font-light leading-none">
+          <h1 className="flex justify-center font-semibold items-center gap-2 text-xs text-[#fff] font-urbanist font-light leading-none tracking-[0.25em]">
             ARCHITECTURE 
             <span className="text-[#fff] text-lg font-urbanist font-light leading-none mb-1">|</span> 
             INTERIOR 
             <span className="text-[#fff] text-lg font-urbanist font-light leading-none mb-1">|</span> 
             PLANNING
           </h1>
-          <div className="text-base sm:text-sm mt-[1rem] text-[#ffffffde] font-light flex flex-col items-center gap-1">
-          <div className="flex justify-center items-center gap-2 leading-none text-[#EAE8E2]">    
-          <a className="sm:hover:text-white text-[0.90rem] sm:text-sm" href="tel:+919859819190">
+          <div className="text-base sm:text-xs mt-[1rem] text-[#ffffffde] font-light flex flex-col items-center gap-1">
+          <div className="flex justify-center text-xs items-center gap-2 leading-none text-[#EAE8E2]">    
+          <a className="sm:hover:text-white text-[0.90rem] sm:text-xs" href="tel:+919859819190">
             +91 9879819190
           </a>
           <span className="text-[#ffffffde] text-[0.90rem] sm:text-lg mb-0.5 ">|</span>
-          <a className="sm:hover:text-white text-[0.90rem] sm:text-sm" href="tel:+919859871371">
+          <a className="sm:hover:text-white text-[0.90rem] sm:text-xs" href="tel:+919859871371">
             +91 9879871371
           </a>
           </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquareInstagram, faSquareBehance, faLinkedin, faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faSquareInstagram, faSquareBehance, faLinkedin, faSquareWhatsapp, faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const links = [
   {
@@ -27,7 +27,7 @@ const links = [
   {
     name: "Website",
     url: "https://www.mahimaarchitects.com",
-    icon: faSquareInstagram,
+    icon: faSquareFacebook,
   },
 ];
 
@@ -70,11 +70,13 @@ function SocialLinks() {
                 icon={link.icon}
                 className={`${
                   index === 1
-                    ? "text-[1.9rem]"
+                    ? "text-[1.8rem]"
                     : index === 2
-                    ? "text-[1.7rem] mb-[0.00rem]"
+                    ? "text-[1.8rem] mb-[0.00rem]"
                     : index === 3
                     ? "text-[1.8rem] ml-[0.023rem]"
+                    : index === 4 
+                    ? "text-[1.7rem]"
                     : "text-[1.8rem]"
                 }`}
               />
