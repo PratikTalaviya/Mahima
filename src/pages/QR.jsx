@@ -9,7 +9,7 @@ function QR() {
 
   return (
     <motion.div className="h-dvh bg-[#282828] flex flex-col">
-      <div className="h-[40dvh] bg-[#282828] w-full flex justify-center items-center flex-col">
+      <div className="h-[40dvh] bg-[#282828] w-full flex justify-around items-center flex-col">
         <div className="flex flex-col items-center">
           <motion.div className="flex justify-center text-[20vw] text-[#fff] font-urbanist font-light leading-none">
             {title.map((letter, index) => (
@@ -55,8 +55,31 @@ function QR() {
       <div className="h-[30dvh] bg-[#282828]">
         <InfiniteImageStrips />
       </div>
-      <div className="h-[30dvh] bg-[#282828] flex justify-center items-center">
-        <SocialLinks />
+      <div className="h-[20dvh] bg-[#282828] flex flex-col justify-center items-center pt-[5dvh]">
+        <SocialLinks /> 
+        <div className="flex justify-center flex-col items-center my-5 pt-[2dvh]">
+          <h1 className="flex justify-center items-center gap-2 text-lg text-[#fff] font-urbanist font-light leading-none">
+            ARCHITECTURE 
+            <span className="text-[#fff] text-xl font-urbanist font-light leading-none mb-1">|</span> 
+            INTERIOR 
+            <span className="text-[#fff] text-xl font-urbanist font-light leading-none mb-1">|</span> 
+            PLANNING
+          </h1>
+          <div className="text-base sm:text-sm mt-[1rem] text-[#ffffffde] font-light flex flex-col items-center">
+          <div className="flex justify-center items-center gap-2">    
+          <a className="sm:hover:text-white text-[0.90rem] sm:text-[1.15rem]" href="tel:+919859819190">
+            +91 9879819190
+          </a>
+          <span className="text-[#ffffffde] text-[0.90rem] sm:text-xl mb-0.5 ">|</span>
+          <a className="sm:hover:text-white text-[0.90rem] sm:text-[1.15rem]" href="tel:+919859871371">
+            +91 9879871371
+          </a>
+          </div>
+          <a className="sm:hover:text-white" href="mailto:mahimaarchitects.contact@gmail.com?subject=Enquiry%20regarding%20project.">
+            mahimaarchitects.contact@gmail.com
+          </a>
+        </div>
+        </div>
       </div>
     </motion.div>
   );

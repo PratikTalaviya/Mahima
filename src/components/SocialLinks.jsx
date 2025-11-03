@@ -6,23 +6,28 @@ import { faSquareInstagram, faSquareBehance, faLinkedin, faSquareWhatsapp } from
 const links = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/bhavyata_architects/?igsh=N2lpZGJmMTJpZDA5",
+    url: "https://www.instagram.com/mahimaarchitects",
     icon: faSquareInstagram,
   },
   {
     name: "Behance",
-    url: "https://www.behance.net/bhavyata_architects",
+    url: "https://www.behance.net",
     icon: faSquareBehance,
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/bhavyata-architects-69544b292/",
+    url: "https://www.linkedin.com/in",
     icon: faLinkedin,
   },
   {
     name: "Whatsapp",
     url: "https://api.whatsapp.com/send?phone=91%2098798%2019190",
     icon: faSquareWhatsapp,
+  },
+  {
+    name: "Website",
+    url: "https://www.mahimaarchitects.com",
+    icon: faSquareInstagram,
   },
 ];
 
@@ -52,25 +57,25 @@ function SocialLinks() {
           key={link.name}
           className={`${isSmallScreen ? "" : "hover:text-white"}`}
           href={link.url}
-          target="_blank"
+          target={link.name === "Website" ? "_self" : "_blank"}
           rel="noopener noreferrer"
         >
           {isSmallScreen ? (
             <div
               className={`h-[2rem] w-[2rem] rounded-full flex justify-center items-center ${
-                index === 2 ? "border-[0.4rem]" : "border-[0.4rem]"
+                index === 2 ? "border-[0.42rem]" : "border-[0.4rem]"
               } border-white hover:border-gray-300 text-white hover:text-gray-300 duration-200`}
             >
               <FontAwesomeIcon
                 icon={link.icon}
                 className={`${
                   index === 1
-                    ? "text-[2.4rem]"
+                    ? "text-[2.45rem]"
                     : index === 2
-                    ? "text-[2.28rem] mb-[0.0rem]"
+                    ? "text-[2.3rem] mb-[0.08rem]"
                     : index === 3
-                    ? "text-[2.3rem] ml-[0.05rem]"
-                    : "text-[2.29rem]"
+                    ? "text-[2.4rem] ml-[0.04rem]"
+                    : "text-[2.4rem]"
                 }`}
               />
             </div>

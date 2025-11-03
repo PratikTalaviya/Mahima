@@ -24,12 +24,12 @@ const InfiniteImageStrips = () => {
       <div className="h-[55%] relative overflow-hidden">
         <motion.div
           className="flex absolute top-0 left-0 h-full"
-          animate={{ x: [0, -4000] }}
+          animate={{ x: [0, -2500] }}
           transition={{
             x: {
               repeat: Infinity,
               repeatType: "loop",
-              duration: 100,
+              duration: 200,
               ease: "linear",
             },
           }}
@@ -70,12 +70,12 @@ const InfiniteImageStrips = () => {
       <div className="h-[45%] relative overflow-hidden">
         <motion.div
           className="flex absolute top-0 left-0 h-full"
-          animate={{ x: [-4500, 0] }}
+          animate={{ x: [-3000, 0] }}
           transition={{
             x: {
               repeat: Infinity,
               repeatType: "loop",
-              duration: 100,
+              duration: 200,
               ease: "linear",
             },
           }}
