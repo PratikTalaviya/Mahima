@@ -52,31 +52,31 @@ function QR() {
           </div>
         </div>
       </div>
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, ease: "easeOut" }} className="h-[30dvh] bg-[#201e1f]">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5, duration: 1, ease: "easeOut" }} className="h-[30dvh] bg-[#201e1f]">
         <InfiniteImageStrips />
       </motion.div>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, ease: "easeOut" }}>
       <div className="bg-[#201e1f] flex flex-col justify-center items-center gap-5 pt-8">
         <SocialLinks /> 
         <div className="flex justify-center flex-col items-center">
-          <h1 className="flex justify-center font-semibold items-center gap-2 text-sm text-[#fff] font-urbanist font-light leading-none tracking-[0.1em]">
+          <h1 className="flex justify-center font-semibold items-center gap-2 text-[0.85rem] text-[#fff] font-urbanist font-light leading-none tracking-[0.1em]">
             ARCHITECTURE 
-            <span className="text-[#fff] text-lg font-urbanist font-light leading-none">|</span> 
+            <span className="text-[#fff] text-lg font-urbanist font-light leading-none mb-0.5">|</span> 
             INTERIOR 
-            <span className="text-[#fff] text-lg font-urbanist font-light leading-none">|</span> 
+            <span className="text-[#fff] text-lg font-urbanist font-light leading-none mb-0.5">|</span> 
             PLANNING
           </h1>
           <div className="text-base text-[#ffffffde] font-light flex flex-col items-center">
           <div className="flex justify-center items-center gap-2 mt-2 leading-none text-[#EAE8E2]">    
-          <a className="sm:hover:text-white text-sm" href="tel:+919859819190">
+          <a className="sm:hover:text-white text-[0.8rem]" href="tel:+919859819190">
             +91 9879819190
           </a>
           <span className="text-[#ffffffde] sm:text-lg mb-0.5">|</span>
-          <a className="sm:hover:text-white text-sm" href="tel:+919859871371">
+          <a className="sm:hover:text-white text-[0.8rem]" href="tel:+919859871371">
             +91 9879871371
           </a>
           </div>
-          <a className="sm:hover:text-white text-sm leading-none mt-0" href="mailto:mahimaarchitects.contact@gmail.com?subject=Enquiry%20regarding%20project.">
+          <a className="sm:hover:text-white text-[0.8rem] leading-none mt-0" href="mailto:mahimaarchitects.contact@gmail.com?subject=Enquiry%20regarding%20project.">
             mahimaarchitects.contact@gmail.com
           </a>
         </div>
